@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: #5e0505;
+}
+
+.home {
+    width: 1310px;
+    height: 800px;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Didot;
+}
+
+.header {
+    text-align: left;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.header a {
+    color: white;
+    padding-left: 40px;
+    padding-right: 700px;
+    text-decoration: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.home h1, .home p{
+    color: white;
+    text-align: center;
+    font-family: Perpetua;
+}
+
+.home p {
+    padding: 40px;
+    word-wrap: break-word;
+}
+
+.home h1 {
+    font-family: Didot;
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+.bottom {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right {
+    color: white;
+    text-align: left;
+    width: 600px;
+    height: 450px;
+    font-family: Didot;
+    padding: 0px 0px 0px 100px;
+}
+
+.right h2 {
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.right h3 {
+    padding: 40px 0px 0px 0px;
+    font-size: 40px;
+}
+
+.left,
+img {
+    width: 500px;
+    height: 550px;
+}
+.book{
+    font-family: Didot;
+    background-color: white;
+    height: 400px;
+    margin-top: 40px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.tren h1,p{
+    text-align: center;
+    color: #5e0505;
+}
+.tren h1{
+    font-size: 50px;
+}
+.duoi{
+    display: flex;
+    padding:30px 0px 30px 300px;
+}
+.duoi p{
+    font-size: 40px;
+    padding: 25px;
+
+}
+.duoi .trai,.duoi .phai{
+    color: white;
+    text-align: center;
+    background-color: #5e0505;
+    height: 100px;
+    width: 350px;
+    padding-top: 30px;
+    border-radius: 30px;
+}
+.schedule{
+    font-family: Didot;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.december{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 80px 5px 400px;
+}
+.december .trai,.december .giua,.december .phai{
+    padding: 10px;
+}
+#register {
+    background-color:white;
+    font-size: 40px;
+    color:#5e0505;
+    text-align: center;
+    height: 500px;
+    font-family: Didot;
+}
+.form{
+    display: block;
+    width: 100px;
+}
+.video{
+    background-image: url(video-3\ \(1\).jpg);
+    height: 1000px;
+    width: 100%;
+    color: white;
+}
+.video h1{
+    font-size: 100px;
+    padding: 250px 0px 0px 100px;
+}
+.video h2{
+    padding:50px 0px 0px 100px ;
+}
+#ask{
+    height: 1000px;
+    display: flex;
+    color: white;
+    font-family: Didot;
+}
+.contact {
+    width: 50%;
+    font-size: 30px;
+    padding: 100px 0px 0px 70px;
+}
+.contact h1{
+    padding-bottom: 40px;
+    font-size: 100px;
+}
+.question h1{
+    font-size: 80px;
+    padding:80px;
+}
+.question-form{
+    size:100px;
+}
